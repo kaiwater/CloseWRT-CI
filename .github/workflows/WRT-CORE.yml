@@ -94,11 +94,12 @@ jobs:
 
       - name: Clone Code
         run: |
-          git clone --depth=1 --single-branch --branch $WRT_BRANCH $WRT_REPO ./wrt/
+          git clone --depth=11 --single-branch --branch $WRT_BRANCH $WRT_REPO ./wrt/
 
-          # hardcode rev 87f9199 for LastGood
+          # hardcode rev 87f9199b1d7d0e42cb461fa12c2d2a30c9458b4c for LastGood
           cd ./wrt/
-          git reset --hard 87f9199
+          git fetch origin 87f9199b1d7d0e42cb461fa12c2d2a30c9458b4c
+          git reset --hard 87f9199b1d7d0e42cb461fa12c2d2a30c9458b4c 
           cd ..
           
           cd ./wrt/ && echo "WRT_HASH=$(git log -1 --pretty=format:'%h')" >> $GITHUB_ENV
