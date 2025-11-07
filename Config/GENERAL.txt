@@ -9,6 +9,29 @@ CONFIG_PACKAGE_luci-app-samba4=y
 CONFIG_PACKAGE_luci-app-tailscale=y
 CONFIG_PACKAGE_luci-app-upnp=y
 CONFIG_PACKAGE_luci-app-wolplus=y
+
+
+CONFIG_PACKAGE_luci-app-zerotier=y
+CONFIG_PACKAGE_luci-theme-bootstrap=y
+CONFIG_PACKAGE_luci-app-commands=y
+CONFIG_PACKAGE_luci-app-filemanager=y
+CONFIG_PACKAGE_luci-app-vlmcsd=y
+CONFIG_PACKAGE_luci-app-ttyd=y
+
+
+
+CONFIG_PACKAGE_tcpdump=y
+CONFIG_PACKAGE_nano=y
+CONFIG_PACKAGE_iperf3=y
+
+# CONFIG_PACKAGE_hostapd-utils=y
+CONFIG_PACKAGE_zram-swap=y
+CONFIG_PACKAGE_xz-utils=y
+CONFIG_PACKAGE_coreutils=y 
+CONFIG_PACKAGE_coreutils-shuf=y
+CONFIG_PACKAGE_bc=y
+
+
 #删除插件
 CONFIG_PACKAGE_luci-app-wol=n
 #参数调整
@@ -347,4 +370,5 @@ CONFIG_WARP_DBG_SUPPORT=y
 CONFIG_WARP_MEMORY_LEAK_DBG=y
 CONFIG_WARP_NEW_FW=y
 CONFIG_WARP_VERSION=2
+
 CONFIG_WED_HW_RRO_SUPPORT=y
