@@ -79,8 +79,8 @@ CONFIG_PACKAGE_chinadns-ng=y
 CONFIG_PACKAGE_luci-app-autoreboot=y
  #CONFIG_PACKAGE_luci-app-gecoosac=y
 CONFIG_PACKAGE_luci-app-netspeedtest=y
- #CONFIG_PACKAGE_luci-app-partexp=y
- #CONFIG_PACKAGE_luci-app-samba4=y
+CONFIG_PACKAGE_luci-app-partexp=y
+CONFIG_PACKAGE_luci-app-samba4=y
  #CONFIG_PACKAGE_luci-app-tailscale=y
 CONFIG_PACKAGE_luci-app-upnp=y
 CONFIG_PACKAGE_luci-app-wolplus=y
@@ -203,6 +203,7 @@ CONFIG_PACKAGE_sfdisk=y
 CONFIG_PACKAGE_sgdisk=y
 CONFIG_PACKAGE_usbmuxd=y
 CONFIG_PACKAGE_usbutils=y
+
 #闭源MTK系列调整，请勿修改
 CONFIG_PACKAGE_luci-app-eqos-mtk=y
 CONFIG_PACKAGE_luci-app-mtwifi-cfg=y
@@ -453,6 +454,7 @@ CONFIG_WARP_NEW_FW=y
 CONFIG_WARP_VERSION=2
 
 CONFIG_WED_HW_RRO_SUPPORT=y
+
 
 
 
