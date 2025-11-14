@@ -94,9 +94,11 @@ jobs:
 
       - name: Clone Code
         run: |
-          git clone --depth=11 --single-branch --branch $WRT_BRANCH $WRT_REPO ./wrt/
+          git clone --depth=1 --single-branch --branch $WRT_BRANCH $WRT_REPO ./wrt/
 
           # hardcode rev 87f9199b1d7d0e42cb461fa12c2d2a30c9458b4c for LastGood
+          
+          # git clone --depth=11 --single-branch --branch $WRT_BRANCH $WRT_REPO ./wrt/
           # cd ./wrt/
           # git fetch origin 87f9199b1d7d0e42cb461fa12c2d2a30c9458b4c
           # git reset --hard 87f9199b1d7d0e42cb461fa12c2d2a30c9458b4c 
