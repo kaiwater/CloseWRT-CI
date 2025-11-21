@@ -42,6 +42,7 @@ jobs:
 
   config:
     needs: cleanup
+    runs-on: self-hosted
     name: ${{matrix.CONFIG}}
     strategy:
       fail-fast: false
