@@ -2,7 +2,7 @@
 
 PADAVANONLY-24.10源码：
 
-https://github.com/padavanonly/immortalwrt-mt798x-24.10.git
+https://github.com/koujiaobro/immortalwrt-mt798x-6.6.git
 
 # U-BOOT
 
@@ -29,4 +29,4 @@ Scripts——自定义脚本
 Config——自定义配置
 
 #
-[![Stargazers over time](https://starchart.cc/VIKINGYFY/CloseWRT-CI.svg?variant=adaptive)](https://starchart.cc/VIKINGYFY/CloseWRT-CI)
+[![Stargazers over time](https://starchart.cc/koujiaobro/CloseWRT-CI.svg?variant=adaptive)](https://starchart.cc/koujiaobro/CloseWRT-CI)
